@@ -1,0 +1,13 @@
+{
+  "name": "Virtual-DOM",
+  "version": "1.0.0",
+  "description": "A possible implementation of Virtual DOM",
+  "main": "index.js",
+  "repository": "git@github.com:kawhi66/Virtual-DOM.git",
+  "author": "https://kawhi.site",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
