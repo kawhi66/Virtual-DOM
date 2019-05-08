@@ -16,7 +16,7 @@ module.exports = {
         port: 3001
     },
     entry: {
-        main: './index.js'
+        main: './src/main.js'
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -26,7 +26,11 @@ module.exports = {
     module: {
         rules: []
     },
-    resolve: {},
+    resolve: {
+        alias: {
+            VirtualDOM: path.resolve(__dirname, '..')
+        }
+    },
     plugins: [
         new HtmlWebpackPlugin({
             favicon: './public/favicon.ico',
