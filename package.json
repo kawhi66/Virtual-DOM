@@ -20,5 +20,11 @@
   "scripts": {
     "dev": "webpack-dev-server",
     "test": "jest"
+  },
+  "dependencies": {
+    "browser-split": "^0.0.1",
+    "ev-store": "^7.0.0",
+    "global": "^4.3.2",
+    "is-object": "^1.0.1"
   }
 }
