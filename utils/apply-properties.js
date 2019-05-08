@@ -1,5 +1,5 @@
 var isHook = require("./is-vhook")
-var isObject = require("is-object")
+var isObject = require("./is-object")
 
 module.exports = applyProperties
 
