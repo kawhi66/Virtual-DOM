@@ -1,6 +1,11 @@
-const h = require('./lib/create')
-const div = h('div', {}, 'hello')
-const ul = h('ul', {}, [h('li', {}, 'item - 1'), h('li', {}, 'item - 2')])
+const createElement = require('./lib/create')
+const h = require('./lib/hyperscript')
+const VNode = require('./lib/vnode')
+const VText = require('./lib/vtext')
 
-document.body.insertBefore(div, document.body.lastElementChild)
-document.body.insertBefore(ul, document.body.lastElementChild)
+module.exports = {
+    createElement,
+    h,
+    VNode,
+    VText
+}
