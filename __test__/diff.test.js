@@ -1,7 +1,14 @@
+const diff = require('../index').diff
 const diffProps = require('../index').diffProps
+const h = require('../index').h
 
 describe('diff algorithm', () => {
-    test.todo('diff');
+    test('diff', () => {
+        const nodeA = h('.foo')
+        const nodeB = h('.bar')
+        console.log(diff(nodeA, nodeB))
+    });
+
     test('add attributes to empty attributes', () => {
         const propsA = {
             attributes: {}
