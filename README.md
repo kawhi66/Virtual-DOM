@@ -26,6 +26,6 @@ There is a fun example in [Matt-Esch/virtual-dom](https://github.com/kawhi66/Vir
 
 ![](/example/assets/a-fun-example.png)
 
-I also made another example, it list some solutions to move an inner element to the centre of parent element.
+I also made another example, it lists some solutions to move an inner element to the centre of parent element.
 
 ![](/example/assets/another-example.png)
